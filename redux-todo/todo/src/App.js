@@ -1,10 +1,14 @@
 import logo from './logo.svg';
 import './App.css';
+import AddTodo from './components/addTodo';
+import List from './components/list';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world!</h1>
+
+<AddTodo/>
+<List/>
     </div>
   );
 }
